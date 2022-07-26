@@ -615,7 +615,6 @@ img {
 
 .checkbox-text {
     color: var(--color-hover);
-    border-bottom: 1px solid currentColor;
 }
 
 .button-modal {
