@@ -520,6 +520,10 @@ img {
     border-color: var(--color-hover)
 }
 
+.form-field:hover textarea {
+    border-color: var(--color-hover)
+}
+
 .modal-iner {
     margin: 40px;
 }
@@ -594,7 +598,6 @@ img {
 }
 
 .checkbox-imput {
-
     appearance: none;
 }
 
@@ -752,6 +755,7 @@ img {
 }
 
 .imput-email {
+    padding: 16px;
     width: 358px;
     height: 50px;
     left: 815px;
