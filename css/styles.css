@@ -486,6 +486,7 @@ img {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    
 
 }
 
@@ -502,7 +503,8 @@ img {
     padding: 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    
 }
 
 .button-close:hover {
@@ -547,19 +549,12 @@ img {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 11px 42px;
-
-
 }
 
 .is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-}
-
-.ddd {
-    /* opacity: 0;
-    position: absolute; */
 }
 
 .form-icon {
@@ -608,11 +603,19 @@ img {
     flex-shrink: 0;
     border-radius: 2px;
     background-color: var(--color-hover);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
 .checkbox-imput:checked + .checkbox-icon {
     opacity: 1;
+    
+}
+
+.checkbox-text {
+    color: var(--color-hover);
+    border-bottom: 1px solid currentColor;
 }
 
 .button-modal {
