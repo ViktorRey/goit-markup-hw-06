@@ -16,38 +16,40 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
     <body>
-        <header class="header-background">
-            <div class="container main-nav">
-                <nav class="main-nav">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
                     <a href="./index.html" class="logo" lang="en"><span class="web-logo">Web</span>Studio</a>
-                    <ul class="header-menu">
-                        <li class="header-menu-item line">
-                            <a class="menu-link menu-link-current" href="">Студия</a>
+                    <nav class="main-nav">
+                        <ul class="header-menu">
+                            <li class="header-menu-item line">
+                                <a class="menu-link menu-link-current" href="">Студия</a>
+                            </li>
+                            <li class="header-menu-item">
+                                <a class="menu-link" href="./portfolio.html">Портфолио</a>
+                            </li>
+                            <li class="header-menu-item">
+                                <a class="menu-link" href="">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="contact">
+                        <li class="link-menu">
+                            <a class="contact-link" href="mailto">
+                                <svg class="mail-icon" width="16" height="12">
+                                    <use href="./images/symbol-defs.svg#icon-mail"></use>
+                                </svg>info@devstudio.com
+                            </a>
                         </li>
-                        <li class="header-menu-item">
-                            <a class="menu-link" href="./portfolio.html">Портфолио</a>
-                        </li>
-                        <li class="header-menu-item">
-                            <a class="menu-link" href="">Контакты</a>
+                        <li class="link-menu">
+                            <a class="contact-link" href="tel+380961111111">
+                                <svg class="smartphone-icon" width="10" height="16">
+                                    <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                                </svg>+38 096 111 11 11
+                            </a>
                         </li>
                     </ul>
-                </nav>
-                <ul class="contact">
-                    <li class="link-menu">
-                        <a class="contact-link" href="mailto">
-                            <svg class="mail-icon" width="16" height="12">
-                                <use href="./images/symbol-defs.svg#icon-mail"></use>
-                            </svg>info@devstudio.com
-                        </a>
-                    </li>
-                    <li class="link-menu">
-                        <a class="contact-link" href="tel+380961111111">
-                            <svg class="smartphone-icon" width="10" height="16">
-                                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
-                            </svg>+38 096 111 11 11
-                        </a>
-                    </li>
-                </ul>
+                </div>
             </div>
         </header>
         <!-- Hero section-->
@@ -350,7 +352,7 @@
                         </svg>
                     </button>
                     <div class="modal-iner">
-                        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+                        <b class="modal-title">Залиште свої дані, ми вам передзвонимо</b>
                         <form class="form" name="main-form">
                             <div class="form-field">
                                 <label class="form-field-label" for="user-name">Ім'я</label>
@@ -388,10 +390,7 @@
                                 Погоджуюся з розсилкою та приймаю <a class="checkbox-text" href="">Умови договору</a>
                                 </label>
                             </div>
-                            <div class="button-modal">
-                                <button class="button" type="button">Відправити</button>
-                            </div>
-                            
+                                <button class="button-modal" type="button">Відправити</button>
                         </form>
                     </div>
                 </div>
@@ -457,7 +456,7 @@
                                 <button class="button-footer" type="button">Підписатися
                                     <svg  class="icon-telegram" width="20" height="20">
                                         <use href="./images/icon.svg#icon-telegram"></use>
-                                    </svg>
+                                    </svg> 
                                 </button>
                             </div>
                         </form>
