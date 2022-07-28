@@ -514,7 +514,7 @@ img {
 }
 
 .button-close:hover,
-.form-field:focus {
+.button-close:hover:focus {
     fill: var(--color-hover);
 }
 
