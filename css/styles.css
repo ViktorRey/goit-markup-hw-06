@@ -56,14 +56,6 @@ img {
 
 /*header*/
 
-:active,
-:hover,
-:focus {
-  outline: 0;
-  outline-offset: 0;
-}
-
-
 .header {
     border-bottom: 1px solid #eeeeee;
     background-color: var(--white-color-hero);
